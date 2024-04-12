@@ -40,7 +40,7 @@ import androidx.navigation.NavHostController
 import com.example.myapplication.R
 import java.time.format.TextStyle
 
-@RequiresApi(Build.VERSION_CODES.O)
+
 @Composable
 fun Uvod(navController: NavHostController,
     //onContinueClicked: () -> Unit,
