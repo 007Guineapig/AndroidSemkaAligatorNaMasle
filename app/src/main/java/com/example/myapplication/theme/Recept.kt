@@ -15,7 +15,11 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 
 @Composable
+<<<<<<< HEAD
 fun Recept(navController: NavHostController,){
+=======
+fun Recept(navController: NavHostController){
+>>>>>>> origin/master
 
     Column(
         modifier = Modifier.fillMaxWidth(),

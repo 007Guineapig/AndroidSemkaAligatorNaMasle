@@ -89,7 +89,11 @@ fun MyApp(modifier: Modifier = Modifier,navController: NavHostController) {
     //}
 }
 
+<<<<<<< HEAD
 /*@Composable
+=======
+@Composable
+>>>>>>> origin/master
 fun OnboardingScreen(
     onContinueClicked: () -> Unit,
     modifier: Modifier = Modifier
@@ -107,7 +111,11 @@ fun OnboardingScreen(
             Text("Continue")
         }
     }
+<<<<<<< HEAD
 }*/
+=======
+}
+>>>>>>> origin/master
 
 @Composable
 private fun Greetings(
@@ -215,13 +223,21 @@ private fun CardContent(name: String) {
 
 
 
+<<<<<<< HEAD
 /*@Preview(
+=======
+@Preview(
+>>>>>>> origin/master
     showBackground = true,
     widthDp = 320,
     uiMode = UI_MODE_NIGHT_YES,
     name = "GreetingPreviewDark"
 )
+<<<<<<< HEAD
 @Preview(showBackground = true, widthDp = 320)
+=======
+/*@Preview(showBackground = true, widthDp = 320)
+>>>>>>> origin/master
 @Composable
 fun GreetingPreview() {
     MyApplicationTheme{
@@ -229,13 +245,21 @@ fun GreetingPreview() {
     }
 }*/
 
+<<<<<<< HEAD
 /*@Preview(showBackground = true, widthDp = 320, heightDp = 320)
+=======
+@Preview(showBackground = true, widthDp = 320, heightDp = 320)
+>>>>>>> origin/master
 @Composable
 fun OnboardingPreview() {
     MyApplicationTheme {
         OnboardingScreen(onContinueClicked = {})
     }
+<<<<<<< HEAD
 }*/
+=======
+}
+>>>>>>> origin/master
 
 //@Preview
 //@Composable

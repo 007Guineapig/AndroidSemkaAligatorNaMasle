@@ -4,5 +4,8 @@ sealed class Screen(val rout:String) {
     object Menu:Screen("Menu")
     object Recept:Screen("Recept")
     object LastScreen:Screen("LastScreen")
+<<<<<<< HEAD
     object Uvod:Screen("Uvod")
+=======
+>>>>>>> origin/master
 }
