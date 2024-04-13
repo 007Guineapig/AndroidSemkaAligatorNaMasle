@@ -67,6 +67,7 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-
+    implementation("androidx.compose.material:material-icons-extended-android:1.6.5")
     implementation ("androidx.navigation:navigation-compose:2.7.5")
+    //implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0")
 }
